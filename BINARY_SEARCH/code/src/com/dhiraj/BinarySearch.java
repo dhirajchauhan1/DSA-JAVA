@@ -3,13 +3,13 @@ package com.dhiraj;
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr ={1,2,3,4,5,6,7,8,9,10};
-     //   System.out.println(search(arr,7));
+        System.out.println(search(arr,1));
         int[] arr1 ={10,9,8,7,6,5,4,3,2,1};
-        System.out.println(search2(arr1,7));
-        System.out.println(OrderAgnosticBs(arr1,7));
+      //  System.out.println(search2(arr1,7));
+     //   System.out.println(OrderAgnosticBs(arr1,7));
     }
 
-    //in case in accending order sorted
+    //in case in ascending order sorted
     // return index
     static int search(int[] arr, int target){
         if (arr.length == 0)
@@ -31,7 +31,7 @@ public class BinarySearch {
         return -1;
     }
 
-    //in case in decending order sorted
+    //in case in descending order sorted
     static int search2(int[] arr, int target){
         if (arr.length == 0)
             return -1;
